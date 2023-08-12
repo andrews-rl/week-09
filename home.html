@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class = "container"><!--Creates a container for the class body.  -->
+  <h1>Home</h1><!-- See element for a complete understanding explanation. -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!-- Creates NAVBAR as required pulled directly from bootstrap.  -->
+    <div class="container-fluid"><!-- Makes the class or navbar fluid throughout diffent display sizes.  -->
+      <a class="navbar-brand" href="#">Project 09</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Where
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./home.html">Home</a></li>
+              <li><a class="dropdown-item" href="./about.html">About</a></li>
+              <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="node_modules/jquery/dist/jquery.js"></script><!-- This code is required to make bootstrap code work  -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script><!-- Same as previous line  -->
+
+  <br><!-- See element for a complete understanding explanation. -->
+  <img class= "img-fluid" height= "500px" width= "1500" src="https://static6.depositphotos.com/1000931/559/i/600/depositphotos_5592386-stock-photo-aggressive-monkey.jpg" alt="A Monkey that needs a dentist"><!-- Defines the location and height of an image. Alt gives a discription if the src fails. -->
+  <p class="p-3 fs-3">Here is a picture of a monkey who needs a dentist.</p><!-- See element for a complete understanding explanation. -->
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class = "container">
+  <h1>Contact</h1><!-- Here is the section's heading.  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Project 09</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Where
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./home.html">Home</a></li>
+              <li><a class="dropdown-item" href="./about.html">About</a></li>
+              <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  <br><!-- Displays a "blank line" on browser. It seems you need two to make one "blank line." -->
+  <br>
+</div><!-- when ever the / is used with an element it ends the element.  -->
+
+<form><!-- Creates a form for data entry -->
+  <h2>Contact Us</h2> <!-- Here is the section heading in a little smaller font than the main or h1 heading. -->
+  <br>
+    
+  <input class="p-1 fs-5" type="text" name="firstName" placeholder="First Name"><!-- Allows the user to enter data. In this case type must be text. The three attributes specify the specific attributes of the input and provides a hint for the date requested. -->
+  <input class="p-1 fs-5" type="text" name="lastName" placeholder="Last Name"><!-- See above -->
+  <input class="p-1 fs-5" type="text" name="phoneNumber" placeholder="Phone Number"><!-- See above -->
+  <input class="p-1 fs-5" type="text" name="email" placeholder="Email"><!-- See above -->
+  <br><!-- See above -->
+  <br>
+  <input class="p-1 fs-5" type="text" name="questionsComments" placeholder="Questions/Comments"><!-- See above -->
+  <input class="p-1 fs-5" type="submit" value="Submit"><!-- The input type = submit defines a submit button which submits all forms values to a form holder. The form holder should be a server page with a script for processing data. The form handler is specified in the form's action attribute.  -->
+</form><!-- See above -->
+
+<table><!-- Here is the table element if forms a table to store relevant informaiton. -->
+  <tr><!-- tr defines a row in html. -->
+    <th class="p-3 fs-3">Site</th><!-- th defines a table header. The th elements are bolded and centered by default. -->
+    <th class="p-3 fs-3">Link</th><!-- See above -->
+  </tr>
+  <tr>
+    <td class="p-3 fs-3">Facebook</td><!-- The td holds the data within a table cell. The style padding positions the data for better appearance. -->
+    <td class="p-3 fs-3"><a href="#">Visit our Facebook</a></td><!-- See above  -->
+  </tr>
+  <tr>
+    <td class="p-3 fs-3">Twitter</td><!-- See above -->
+    <td class="p-3 fs-3"><a href="#">Visit our Twitter</a></td><!-- See above -->
+  </tr>
+
+</table><!-- See above -->
+  <br>
+
+
+</body>
+</html>
+
+
+
